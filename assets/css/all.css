@@ -1,0 +1,374 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(/wp-content/plugins/questionner/assets/fonts/ProximaNova-Bold.otf);
+  font-weight: bold; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(/wp-content/plugins/questionner/assets/fonts/ProximaNova-Regular.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(/wp-content/plugins/questionner/assets/fonts/ProximaNova-Semibold.otf);
+  font-weight: 500; }
+
+.panel-body.panel-platforms {
+  background: initial; }
+
+.openAccArea {
+  margin-top: 30px; }
+
+.panel-body.panel-platforms > h2 {
+  display: none; }
+
+div#topBarRegistration, a.registerButt.blue.mright, a.registerButt.yellow, span.wpml-ls-native {
+  font-family: ProximaNova !important; }
+
+a.registerButt.yellow, span.wpml-ls-native {
+  color: black !important; }
+
+#topBarRegistration > .container > .row {
+  padding-top: 0px;
+  padding-bottom: 7px; }
+
+#ConstructorBlock .type_select > label + select + i {
+  top: initial !important;
+  bottom: 15px !important; }
+
+#registration_page div#ConstructorBlock {
+  margin: 0px auto; }
+
+.form-check.form-check-radio {
+  position: relative; }
+  .form-check.form-check-radio input {
+    opacity: 0; }
+
+.popUpCoverDeal {
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 100%;
+  padding: 0px 30px;
+  color: black; }
+
+a.gotit {
+  background: #ff1414;
+  display: block;
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding: 8px 0px;
+  margin-bottom: 31px;
+  border-radius: 3px;
+  margin-top: -8px; }
+
+#ConstructorBlock {
+  background: white;
+  max-width: 600px;
+  padding-top: 0px;
+  border-radius: 8px 8px 40px 40px; }
+  #ConstructorBlock.loginForm {
+    border-radius: 10px 10px 30px 30px; }
+    #ConstructorBlock.loginForm:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 7px;
+      background: #ad8e63;
+      border-radius: 40px 41px 0px 0px;
+      margin-top: -1px; }
+    #ConstructorBlock.loginForm header {
+      text-align: center;
+      font-weight: 800 !important;
+      border-bottom: 0px !important;
+      padding-top: 22px !important;
+      background: white !important;
+      font-size: 18pt;
+      color: #6d6d6d; }
+    #ConstructorBlock.loginForm .forgot-password.pull-left {
+      margin-top: 5px; }
+      #ConstructorBlock.loginForm .forgot-password.pull-left a#forgotPassword {
+        color: #777777;
+        font-size: 9pt; }
+    #ConstructorBlock.loginForm div#remember_me {
+      color: #777777;
+      font-size: 9pt; }
+    #ConstructorBlock.loginForm .bottomLine {
+      display: flex;
+      justify-content: space-between; }
+    #ConstructorBlock.loginForm input {
+      border-radius: 5px;
+      border: 1px solid #e0e0e0; }
+    #ConstructorBlock.loginForm span.labelEm {
+      font-weight: 100;
+      color: #777777; }
+    #ConstructorBlock.loginForm button.btn.btn-primary {
+      border-radius: 30px;
+      padding: 0px 50px !important;
+      background: #292928 !important;
+      height: 45px; }
+      #ConstructorBlock.loginForm button.btn.btn-primary i {
+        font-size: 9pt; }
+    #ConstructorBlock.loginForm footer {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 30px; }
+    #ConstructorBlock.loginForm input#RememberMe {
+      width: 15px; }
+    #ConstructorBlock.loginForm div#remember_me label {
+      margin-top: 5px !important;
+      display: block;
+      float: right;
+      margin-left: 4px;
+      cursor: pointer; }
+    #ConstructorBlock.loginForm fieldset {
+      padding-bottom: 0px !important;
+      padding: 0px 30px; }
+  #ConstructorBlock div.ValidNotification {
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid gainsboro;
+    border-bottom: 0px; }
+    #ConstructorBlock div.ValidNotification#message {
+      margin-top: -155px; }
+    #ConstructorBlock div.ValidNotification#confirm_validation {
+      margin-top: -104px; }
+      #ConstructorBlock div.ValidNotification#confirm_validation h5 {
+        color: #fa2e2e; }
+    #ConstructorBlock div.ValidNotification#email_validation {
+      margin-top: -86px;
+      position: absolute;
+      border-radius: 4px 3px 0px 0px !important; }
+      #ConstructorBlock div.ValidNotification#email_validation h5 {
+        color: #fa2e2e; }
+    #ConstructorBlock div.ValidNotification#date_validation {
+      margin-top: -106px; }
+      #ConstructorBlock div.ValidNotification#date_validation h5 {
+        color: #fa2e2e; }
+    #ConstructorBlock div.ValidNotification p {
+      margin-bottom: 6px; }
+    #ConstructorBlock div.ValidNotification .invalid {
+      color: #fa2e2e !important; }
+    #ConstructorBlock div.ValidNotification .valid {
+      color: green !important; }
+  #ConstructorBlock a {
+    font-family: inherit !important; }
+  #ConstructorBlock .borderLine {
+    width: 100%;
+    height: 8px;
+    background: #0a0a0a;
+    border-radius: 10px 10px 0px 0px; }
+    #ConstructorBlock .borderLine > div {
+      border-radius: 10px 0px 0px 0px;
+      width: 35%;
+      height: 100%;
+      background: #ac8d63; }
+  #ConstructorBlock h1, #ConstructorBlock h4, #ConstructorBlock span, #ConstructorBlock input, #ConstructorBlock select, #ConstructorBlock p, #ConstructorBlock label, #ConstructorBlock div, #ConstructorBlock header {
+    font-family: ProximaNova; }
+  #ConstructorBlock h1 {
+    text-align: center;
+    color: #959595;
+    font-size: 21pt;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-weight: 900; }
+  #ConstructorBlock h2 {
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ad8e63; }
+  #ConstructorBlock h3 {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #7c7c7c; }
+  #ConstructorBlock p {
+    margin: 0px;
+    font-size: 14px;
+    color: #939393;
+    font-weight: 500; }
+  #ConstructorBlock form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    justify-content: space-between; }
+  #ConstructorBlock div.field-group {
+    margin-bottom: 13px; }
+    #ConstructorBlock div.field-group select {
+      background-image: url(/wp-content/plugins/questionner/assets/img/arrow_down.png) !important;
+      background-repeat: no-repeat !important;
+      background-position: right 31px bottom 19px !important; }
+    #ConstructorBlock div.field-group h4 {
+      font-size: 15px;
+      font-weight: 400;
+      color: #929292;
+      margin-bottom: 0px; }
+    #ConstructorBlock div.field-group input, #ConstructorBlock div.field-group select {
+      border-radius: 5px;
+      width: 100%;
+      padding: 11px 10px;
+      border: 1px solid #dcdcdc;
+      background: initial;
+      font-size: 15px; }
+    #ConstructorBlock div.field-group.type_select {
+      position: relative; }
+      #ConstructorBlock div.field-group.type_select select {
+        cursor: pointer;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none; }
+      #ConstructorBlock div.field-group.type_select i {
+        position: absolute;
+        right: 34px;
+        top: 17px;
+        color: #b8b8b8;
+        font-size: 11pt; }
+    #ConstructorBlock div.field-group.type_radio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; }
+      #ConstructorBlock div.field-group.type_radio .name {
+        width: 80%; }
+      #ConstructorBlock div.field-group.type_radio .hasExpl h4 > i {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: underline; }
+      #ConstructorBlock div.field-group.type_radio .hasExpl > div {
+        display: none;
+        position: absolute;
+        width: 370px;
+        background: white;
+        box-shadow: 0px 0px 3px 0px #a7a7a7;
+        padding: 13px 17px;
+        z-index: 9999; }
+      #ConstructorBlock div.field-group.type_radio .checkboxArea {
+        width: 20%;
+        display: flex;
+        justify-content: space-between; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea > div {
+          width: 43%;
+          float: left; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea div {
+          font-size: 15px;
+          font-weight: 400;
+          color: #929292; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea input {
+          display: initial;
+          position: absolute;
+          top: 12px;
+          left: 43px; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea label {
+          position: relative;
+          width: 100%;
+          cursor: pointer; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea label:before {
+          content: "";
+          width: 14px;
+          height: 14px;
+          display: block;
+          border-radius: 12px;
+          border: 1px solid #8b8b8b;
+          float: left;
+          margin-top: 3px;
+          margin-right: 4px; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea label:after {
+          content: "";
+          width: 8px;
+          height: 8px;
+          display: block;
+          border-radius: 12px;
+          position: absolute;
+          top: 3px;
+          margin-top: 3px;
+          margin-left: 3px; }
+        #ConstructorBlock div.field-group.type_radio .checkboxArea input:checked + label:after {
+          background: #969696; }
+    #ConstructorBlock div.field-group.type_checkbox .arrowDown {
+      display: none; }
+    #ConstructorBlock div.field-group.password {
+      z-index: 9; }
+    #ConstructorBlock div.field-group.type_password, #ConstructorBlock div.field-group.type_captcha {
+      display: none; }
+    #ConstructorBlock div.field-group.captcha {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #ConstructorBlock div.field-group.captcha > span {
+        font-weight: 400;
+        color: #929292; }
+      #ConstructorBlock div.field-group.captcha .showCaptha {
+        background: #e0e0e0;
+        text-transform: uppercase;
+        border: 10px;
+        padding: 12px 65px;
+        border-radius: 5px;
+        font-weight: 900;
+        cursor: pointer; }
+    #ConstructorBlock div.field-group.type_note > i {
+      float: left;
+      margin-right: 6px;
+      margin-top: 2px;
+      color: #898989; }
+    #ConstructorBlock div.field-group[data-cond='1'] {
+      display: none; }
+    #ConstructorBlock div.field-group.show {
+      display: block !important; }
+  #ConstructorBlock .checkboxArea.type_checkbox label > i {
+    border: 2px solid #ac8d63;
+    border-radius: 20px;
+    width: 26px;
+    height: 26px;
+    color: transparent;
+    transition: .2s;
+    padding-top: 5px;
+    padding-left: 4px;
+    cursor: pointer; }
+  #ConstructorBlock .checkboxArea.type_checkbox label > div {
+    float: right;
+    width: 92%;
+    font-weight: 800;
+    font-size: 13px;
+    color: #7c7c7c; }
+    #ConstructorBlock .checkboxArea.type_checkbox label > div a {
+      color: #7c7c7c;
+      text-decoration: underline; }
+  #ConstructorBlock .checkboxArea.type_checkbox input {
+    display: block;
+    width: 26px;
+    opacity: 0;
+    position: absolute;
+    visibility: initial; }
+  #ConstructorBlock .checkboxArea.type_checkbox input:checked + label > i {
+    background-color: #ac8d63;
+    color: #fff; }
+  #ConstructorBlock .submitArea {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px 40px 0px; }
+    #ConstructorBlock .submitArea input {
+      background: black;
+      color: white;
+      padding: 12px 54px;
+      border-radius: 38px;
+      font-weight: 900;
+      font-size: 14pt;
+      border: 0px; }
+
+@media (max-width: 600px) {
+  #ConstructorBlock {
+    width: 110%;
+    margin-left: -5% !important; }
+    #ConstructorBlock div.ValidNotification {
+      padding: 6px 10px;
+      border: 1px solid gainsboro;
+      width: 100%;
+      position: absolute;
+      left: 9px; }
+    #ConstructorBlock form {
+      padding: 0px 10px; } }

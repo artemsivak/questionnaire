@@ -1,0 +1,30 @@
+{
+    "name": "leverate/questionner-coverdeal",
+    "type": "wordpress-plugin",
+    "description": "This plugin provides questionner functionality.",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Artem Sivak",
+            "email": "artem@leverate.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "inpsyde/php-coding-standards": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Questionner\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "ci": [
+            "vendor/bin/phpcs"
+        ]
+    }
+}

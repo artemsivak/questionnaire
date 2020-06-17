@@ -1,0 +1,7 @@
+vendor/*
+/node_modules/
+phpunit.xml
+.phpunit.result.cache
+/assets/sass/fonts.scss
+!/vendor/autoload.php
+!/vendor/composer*

@@ -1,0 +1,23 @@
+{
+  "name": "questionner",
+  "version": "1.0.0",
+  "description": "questionner styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://artemsivak@bitbucket.org/artemsivak/questionner.git"
+  },
+  "author": "Artem Sivak",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/artemsivak/questionner#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.14.1"
+  }
+}
